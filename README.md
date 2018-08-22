@@ -47,13 +47,13 @@
 
 -   通过git下载源码，本项目基于JDK1.8
     
--   采用Maven项目管理，模块化，导入IDE时直接选定liugh-parent的pom导入
+-   采用Maven项目管理，模块化，导入IDE时直接选定w-parent的pom导入
     
--   创建数据库liugh，数据库编码为UTF-8，执行liugh.sql文件，初始化数据
+-   创建数据库，数据库编码为UTF-8，执行sql文件，初始化数据
     
 -   修改application-dev.properties，更新MySQL账号和密码
     
--   Eclipse、IDEA运行SpringbootApplication.java，则可启动项目。或在liugh-parent目录下运行命令mvn clean package，然后在liugh-web/target目录下运行java -jar liugh-web.jar命令
+-   Eclipse、IDEA运行SpringbootApplication.java，则可启动项目。或在w-parent目录下运行命令mvn clean package，然后在w-web/target目录下运行java -jar liugh-web.jar命令
 
     
 -   访问登录接口：localhost:8081/api/v1/login
@@ -69,7 +69,3 @@
 
 ![](https://oscimg.oschina.net/oscnet/6c45f5bfa57fa868b4fb700011f943e65b0.jpg)
 
-彩蛋：项目注释完整，并且自定义了启动图案~
-
-
-第一次做自己的项目，经验不足，如果大家有什么好的意见或批评，请务必issue一下。
