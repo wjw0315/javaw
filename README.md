@@ -53,7 +53,7 @@
     
 -   修改application-dev.properties，更新MySQL账号和密码
     
--   Eclipse、IDEA运行SpringbootApplication.java，则可启动项目。或在w-parent目录下运行命令mvn clean package，然后在w-web/target目录下运行java -jar liugh-web.jar命令
+-   Eclipse、IDEA运行SpringbootApplication.java，则可启动项目。或在w-parent目录下运行命令mvn clean package，然后在w-web/target目录下运行java -jar w-web.jar命令
 
     
 -   访问登录接口：localhost:8081/api/v1/login
